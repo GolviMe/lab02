@@ -2,10 +2,10 @@
 #include <string>
 
 int main() {
-    std::string name; // Переменная для имени
+    std::string name; // User name
     std::cout << "Enter your name: ";
     std::cin >> name;
-    // Вывод приветствия
+    // Output greeting
     std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
